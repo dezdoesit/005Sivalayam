@@ -6,23 +6,23 @@ struct ContentView: View {
         TabView {
             Chapter1View()
                 .tabItem {
-                    Label("Chapter 1", systemImage: "1.circle")
+                    Label("Home", systemImage: "house")
                 }
             Chapter2View()
                 .tabItem {
-                    Label("Chapter 2", systemImage: "2.circle")
+                    Label("Calendar", systemImage: "calendar")
                 }
             Chapter3View()
                 .tabItem {
-                    Label("Chapter 3", systemImage: "3.circle")
+                    Label("Directory", systemImage: "person.crop.artframe")
                 }
             Chapter4View()
                 .tabItem {
-                    Label("Chapter 4", systemImage: "4.circle")
+                    Label("Sermons", systemImage: "mic")
                 }
             Chapter5View()
                 .tabItem {
-                    Label("Chapter 5", systemImage: "5.circle")
+                    Label("More", systemImage: "ellipsis")
                 }
         }
     }

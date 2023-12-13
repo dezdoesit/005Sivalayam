@@ -2,7 +2,14 @@ import SwiftUI
 
 struct Chapter4View: View {
     var body: some View {
-        Text("Chapter 4")
+        ScrollView{
+            Image("garuda")
+            Image("garuda")
+            Image("garuda")
+            Image("garuda")
+            Image("garuda")
+            Image("garuda")
+        }
     }
 }
 
